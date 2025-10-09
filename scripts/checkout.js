@@ -24,10 +24,6 @@ loadCartQuantity();
 
 initSearchBar();
 
-// code to reset the input in case the user clicks a button that goes  to checkout page
-
-resetProductInput();
-
 // code to handle footer and no products in cart message 
 
 handleMessageAndFooter();
@@ -39,3 +35,7 @@ loadCart();
 // code to load order summary
 
 if (cart.cartQuantity !== 0) loadOrderSummary();
+
+// code to reset the input in case the user clicks a button that goes  to checkout page
+
+resetProductInput();
