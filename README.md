@@ -17,7 +17,7 @@ Além disso, a loja conta com diversas funcionalidades. Dentre as mais important
 
 <ul>
   <li>Barra de pesquisa interativa (ela ignora letras maisculas e espaços em branco)</li>
-  <li>Carrinho interativo (possui funções de adicionar e remover do carrinho, alterar a quantidade de produtos, selecionar frete, mostrar resumo da compra e finalizar compra)</li>
+  <li>Carrinho interativo (possui funções de adicionar e remover do carrinho, alterar a quantidade de produtos, selecionar frete e finalizar compra)</li>
   <li>Botões de categorias interativos</li>
 </ul>
 
