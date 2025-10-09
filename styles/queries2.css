@@ -1,0 +1,69 @@
+/* ---------- LOGIN QUERIES ----------  */
+
+/* SM - PHONE LANDSCAPE : 576px - 768px*/
+
+@media (max-width: 38.75rem) {
+    /* 38.75 rems = 620px*/
+
+    .yo-product {
+      flex-direction: column;
+    }
+
+    .track-package-btn {
+      align-self: stretch;
+      margin-top: 2rem;
+    }
+
+    .your-order-summary {
+      gap: 20px;
+    }
+
+}
+
+/* ---------- TRACKING QUERIES ----------  */
+
+/* MD - TABLETS: 768px - 1024px*/
+
+@media (max-width: 64rem) {
+    /* 64 rems = 1024px*/
+
+    /* .tracking-footer {
+      margin-top: 67rem;
+    } */
+
+}
+
+/* ---------- GAMES PAGE QUERIES ----------  */
+
+/* MD - TABLETS: 768px - 1024px*/
+
+@media (max-width: 54rem) {
+    /* 54 rems = 816px*/
+
+    .category-checkbox-container {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+    }
+
+    .product-cards-container {
+      grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+/* XS - PHONE PORTRAIT : < 576px */
+
+@media (max-width: 30rem) {
+    /* 30 rems = 480px*/
+
+    .category-checkbox-container {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+    }
+
+    .product-cards-container {
+      grid-template-columns: 1fr 1fr;
+    }
+
+}
